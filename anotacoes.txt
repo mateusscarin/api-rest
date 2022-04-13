@@ -1,0 +1,20 @@
+src/main/main/java
+- pacote onde vão conter as classes java
+
+application.properties
+- onde faz a configuração do banco de dados
+
+pom.xml
+arquivo onde ficam guardadas todas as dependências que foram injetadas no projeto
+
+@Entity - serve para fazer mapeamentos
+
+
+JpaRepository
+- possui vpariosmétodos prontos para fazer persistências no banco de dados
+- basta criar uma estância parautilizar esses métodos
+
+Resource - recebe as requisições http
+
+
+
